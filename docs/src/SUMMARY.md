@@ -15,7 +15,7 @@
 		* [11° Exercício]()
 		* [12° Exercício]()
 	+ [Segunda Lista de Exercícios]()
-		* [1° Exercício]()
+		* [1° Exercício](results/second_list/exec1.md)
 		* [2° Exercício]()
 		* [3° Exercício]()
 		* [4° Exercício]()
