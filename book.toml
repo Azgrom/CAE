@@ -1,7 +1,7 @@
 [book]
 authors = ["Rafael Lúcio"]
 language = "pt-br"
-multilingual = false
+multilingual = true
 src = "docs/src"
 title = "CET961 - Engenharia Assistida por Computador"
 
