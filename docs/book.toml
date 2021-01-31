@@ -7,6 +7,6 @@ title = "CET961 - Engenharia Assistida por Computador"
 
 [output.html]
 additional-css = ["css/2018-edition.css"]
-
+git-repository-url = "https://github.com/Azgrom/CAE"
 
 [preprocessor.katex]
