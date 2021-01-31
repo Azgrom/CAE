@@ -1,2 +1,6 @@
 .ipynb_checkpoints/
 .virtual_documents/
+book
+*.backup
+*~
+*.kra
