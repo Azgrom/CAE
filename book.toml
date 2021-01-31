@@ -2,11 +2,11 @@
 authors = ["Rafael Lúcio"]
 language = "pt-br"
 multilingual = false
-src = "src"
+src = "docs/src"
 title = "CET961 - Engenharia Assistida por Computador"
 
 [output.html]
-additional-css = ["css/rust_book_style.css"]
+additional-css = ["docs/css/rust_book_style.css"]
 git-repository-url = "https://github.com/Azgrom/CAE"
 
 [preprocessor.katex]
