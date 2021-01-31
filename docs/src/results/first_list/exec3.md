@@ -88,7 +88,7 @@ $$
 \end{cases}
 $$
 
-Se isolarmos todas as variáveis para o lado esquerdo da equaçao, teremos: 
+Se isolarmos todas as variáveis para o lado esquerdo da equaçao, teremos:
 $$
 \begin{cases}
    -200u_3 + 0u_4 - R_1 + 0R_2 + 0R_5 = 0\\

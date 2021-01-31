@@ -82,7 +82,7 @@ $$
 \end{cases}
 $$
 
-Se isolarmos todas as variáveis para o lado esquerdo da equaçao, teremos: 
+Se isolarmos todas as variáveis para o lado esquerdo da equaçao, teremos:
 $$
 \begin{cases}
     -400u_2 - 500u_3 + 0u_4 - R_1 = 0\\
@@ -138,11 +138,11 @@ image = np.array(image)
 # Visualizando o conteúdo dos vetores
 
 coeffs, image
-  
+
 (array([[-400, -500,    0,   -1],
         [ 900, -500,    0,    0],
         [-500, 1300, -300,    0],
-        [   0, -300,  300,    0]]), 
+        [   0, -300,  300,    0]]),
         array([   1,    0,    0, 1000]))
 ```
 ```python
