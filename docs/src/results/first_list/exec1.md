@@ -7,7 +7,9 @@
 ---
 1. Tres corpos rígidos, identificados por 2, 3, e 4, estao unidos por quatro molas, conforma mostra a Fig. 1. Uma força horizontal de 1.000 N é aplicada ao corpo 4. Encontre os deslocamentos dos tres corpos e as forças (traçao/compressao) nas molas. Qual é a reaçao na parede? Admita que os corpos só possam sofrer translaçao na direçao horizontal. As constantes de mola (N/mm) sao: $K_1 = 400$, $K_2 = 500$, $K_3 = 500$ e $K_4 = 300$.
 ![](exec1_statement.png)
-```
+
+<span class="caption">Figura 1: Estrutura da questao 1</span>
+```python
 k1 = 400 # N / mm
 k2 = 500 # N / mm
 k3 = 500 # N / mm
@@ -116,7 +118,7 @@ $$
 
 Existe uma biblioteca no python dedicada a resolver equações organizadas na forma matricial acima. No pacote numpy, módulo de algebra linear. O código a seguir criará os vetores da matriz acima e executará o módulo de algebra linear do numpy, já entregando os resultados.
 
-```
+```python
 import numpy as np
 
 # coeffs de coeficientes
@@ -132,12 +134,18 @@ image = [1, 0, 0, 1000]
 coeffs = np.array(coeffs)
 image = np.array(image)
 ```
-```
+```python
 # Visualizando o conteúdo dos vetores
 
 coeffs, image
+  
+(array([[-400, -500,    0,   -1],
+        [ 900, -500,    0,    0],
+        [-500, 1300, -300,    0],
+        [   0, -300,  300,    0]]), 
+        array([   1,    0,    0, 1000]))
 ```
-```
+```python
 # Resolvendo ele com o módulo de álgebra linear
 
 variaveis = np.linalg.solve(coeffs, image)
