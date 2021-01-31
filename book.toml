@@ -5,6 +5,9 @@ multilingual = true
 src = "docs/src"
 title = "CET961 - Engenharia Assistida por Computador"
 
+[build]
+build-dir = 'build'
+
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "rust"
