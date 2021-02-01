@@ -18,6 +18,3 @@ git-repository-url = "https://github.com/Azgrom/CAE"
 limit-results = 15
 
 [preprocessor.katex]
-
-
-[output.epub]
