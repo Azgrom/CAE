@@ -6,7 +6,7 @@
 		* [1° Exercício](results/first_list/exec1.md)
 		* [2° Exercício](results/first_list/exec2.md)
 		* [3° Exercício](results/first_list/exec3.md)
-		* [4° Exercício]()
+		* [4° Exercício](results/first_list/exec4.md)
 		* [5° Exercício]()
 		* [6° Exercício]()
 		* [7° Exercício]()
