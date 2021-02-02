@@ -54,12 +54,12 @@ Componente da força aplicada na, vertical: %.2e N
 """ % tuple([Fx, Fy]))
 ```
 
-```
+```python
 Componente da força aplicada na, horizontal: 5.00e+01 N
 Componente da força aplicada na, vertical: 0.00e+00 N
 ```
 
-```
+```python
 print("""
 Constante elástica do corpo 1: %.2e N/m
 Constante elástica do corpo 2: %.2e N/m
@@ -68,7 +68,7 @@ Constante elástica do corpo 4: %.2e N/m
 """ % tuple([k1, k2, k3, k4]))
 ```
 
-```
+```python
 Constante elástica do corpo 1: 1.64e+07 N/m
 Constante elástica do corpo 2: 1.23e+07 N/m
 Constante elástica do corpo 3: 1.64e+07 N/m
@@ -468,7 +468,7 @@ Deslocamento do nó 3, na horizontal = %.2em,
 Deslocamento do nó 3, na vertical = %.2em""" % tuple(resultado))
 ```
 
-```
+```python
 Deslocamento do nó 2, na horizontal = 9.63e-07m,
 Deslocamento do nó 2, na vertical = 2.28e-07m,
 Deslocamento do nó 3, na horizontal = 1.37e-06m,
@@ -492,6 +492,6 @@ forca_resultante(A, E, L1, xj = 0, xi = 0, uj = resultado[1], ui = 0, yj = 0,
                  yi = L1, vj = resultado[2], vi = 0)
 ```
 
-```
+```python
 -2.2415010452752848e-05
 ```
