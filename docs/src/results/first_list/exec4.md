@@ -11,6 +11,7 @@
 	2. encontre a força nos elementos (traçao e  compressao) da mola1;
 	3. as forças de reaçao na parede direita (corpo 2).
 ![](exec4_structure.png)
+
 <span class="caption">Figura 3: Estrutura da questao 4</span>
 
 Admita que os corpos só possam sofrer translaçao na direçao horizontal. As constantes de mola (N/mm) sao: $K_1 = 400$, $K_2 = 500$, $K_3 = 500$ e $K_4 = 300$.
@@ -77,24 +78,23 @@ $$
 
 #### Ao executar as multiplicações das matrizes, temos:
 $$
-\begin{equation}
-    \begin{cases}
-        1300u_1 - 500u_3= 1000\\
-        -300u_1 = R_2\\
-        -500u_1 + 900u_3 = 0\\
-        -500u_1 - 400u_4 = R_4
-    \end{cases}
-\end{equation}
+\begin{cases}
+    1300u_1 - 500u_3= 1000\\
+    -300u_1 = R_2\\
+    -500u_1 + 900u_3 = 0\\
+    -500u_1 - 400u_4 = R_4
+\end{cases}
 $$
 
-Se isolarmos todas as variáveis para o lado esquerdo da equaçao, teremos: $ \begin{equation}
-    \begin{cases}
-       1300u_1 - 500u_3 - 0R_2 + 0R_4 = 1000\\
-       -300u_1 + 0u_3 - R_2 + 0R_4 = 0\\
-       -500u_1 + 900u_3 + 0R_2 + 0R_4 = 0\\
-       -500u_1 - 400u_3 + 0R_2 - R_4 = 0
-    \end{cases}
-\end{equation} $
+Se isolarmos todas as variáveis para o lado esquerdo da equaçao, teremos: 
+$$
+\begin{cases}
+   1300u_1 - 500u_3 - 0R_2 + 0R_4 = 1000\\
+   -300u_1 + 0u_3 - R_2 + 0R_4 = 0\\
+   -500u_1 + 900u_3 + 0R_2 + 0R_4 = 0\\
+   -500u_1 - 400u_3 + 0R_2 - R_4 = 0
+\end{cases}
+$$
 
 Da algebra linear, verifica-se que pode-se resolver um sistema de 4 equaçoes com 4 variáveis com uma matriz de seus coeficientes:
 
