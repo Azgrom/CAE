@@ -10,7 +10,7 @@
 	1. os deslocamentos dos dois corpos (1 e 3);
 	2. encontre a força nos elementos (traçao e  compressao) da mola1;
 	3. as forças de reaçao na parede direita (corpo 2).
-![](exec4_structure.png)
+![](img/exec4_structure.png)
 
 <span class="caption">Figura 3: Estrutura da questao 4</span>
 

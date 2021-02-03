@@ -6,7 +6,7 @@
 
 ---
 1. Tres corpos rígidos, identificados por 2, 3, e 4, estao unidos por quatro molas, conforma mostra a Fig. 1. Uma força horizontal de 1.000 N é aplicada ao corpo 4. Encontre os deslocamentos dos tres corpos e as forças (traçao/compressao) nas molas. Qual é a reaçao na parede? Admita que os corpos só possam sofrer translaçao na direçao horizontal. As constantes de mola (N/mm) sao: $K_1 = 400$, $K_2 = 500$, $K_3 = 500$ e $K_4 = 300$.
-![](exec1_statement.png)
+![](img/exec1_statement.png)
 
 <span class="caption">Figura 1: Estrutura da questao 1</span>
 ```python

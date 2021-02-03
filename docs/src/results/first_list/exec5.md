@@ -6,7 +6,7 @@
 
 ---
 1. Determine os deslocamentos nodais e as forças de reaçao (Fig. 4) usando o método direto de rigidez. Calcule os deslocamentos nodais e as forças nos elementos.
-![](exec5_structure.png)
+![](img/exec5_structure.png)
 
 <span class="caption">Figura 4: Estrutura da questao 5</span>
 
@@ -140,4 +140,4 @@ variaveis = np.linalg.solve(coeffs, image)
 
 print('Os resultados são: u1 = %.2ecm, u2 = %.2ecm, R3 = %.2eN' % tuple(variaveis))
 ```
-<span class="caption">Os resultados são: $u_1 = 1.83e+00cm$, u2 = 8.33e-01cm, R3 = -5.00e+01N</span>
+<span class="caption">Os resultados são: $u_1 = 1.83e+00cm$, $u_2 = 8.33e-01cm$, $R_3 = -5.00e+01N$</span>
