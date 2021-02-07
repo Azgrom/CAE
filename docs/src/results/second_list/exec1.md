@@ -138,7 +138,11 @@ $$
 }^{\{F^{(g)}_i\}}
 $$
 
+#### Dessa forma podemos encontrar a matriz de rigidez para cada elemento como a seguir:
+---
+
  - Elemento 1: Com $\alpha = 90$
+
 $$
  K_1 =
 \frac{E_1A_1}{L_1}
@@ -329,6 +333,10 @@ se \frac{E_4A_4}{L_4} = 0.982 x 10^7 \Rightarrow
     u_{2Y}^E
 \end{Bmatrix}
 $$
+
+---
+
+#### Juntando as matrizes de rigidez locais em uma global:
 
 $$
 K =
