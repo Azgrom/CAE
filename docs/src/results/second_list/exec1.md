@@ -190,6 +190,8 @@ se \frac{E_1A_1}{L_1} = 1.64 x 10^7 \Rightarrow
 \end{Bmatrix}
 $$
 
+---
+
   - Elemento 2: Com $\alpha = 0$
 $$
  K_2 =
@@ -238,6 +240,8 @@ se \frac{E_2A_2}{L_2} = 1.23 x 10^7 \Rightarrow
 \end{Bmatrix}
 $$
 
+---
+
  - Elemento 3: Com $\alpha = -90$
 $$
  K_3 =
@@ -285,6 +289,8 @@ se \frac{E_3A_3}{L_3} = 1.64 x 10^7 \Rightarrow
     u_{4Y}^D
 \end{Bmatrix}
 $$
+
+---
 
  - Elemento 4: Com $\alpha = 143.13$
 $$
