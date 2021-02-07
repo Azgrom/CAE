@@ -402,7 +402,9 @@ $$
     F_{4X}\\
     F_{4Y}
 \end{Bmatrix}
-\Rightarrow
+$$
+
+$$
 10^7
 \begin{bmatrix}
     0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
