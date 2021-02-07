@@ -168,6 +168,7 @@ $$
     u_{1X}^D\\
     u_{1Y}^D
 \end{Bmatrix}
+\Rightarrow\\
 \Rightarrow
 se \frac{E_1A_1}{L_1} = 1.64 x 10^7 \Rightarrow
 10^7
@@ -215,6 +216,7 @@ $$
     u_{3X}^D\\
     u_{3Y}^D
 \end{Bmatrix}
+\Rightarrow\\
 \Rightarrow
 se \frac{E_2A_2}{L_2} = 1.23 x 10^7 \Rightarrow
 10^7
@@ -262,6 +264,7 @@ $$
     u_{4X}^D\\
     u_{4Y}^D
 \end{Bmatrix}
+\Rightarrow\\
 \Rightarrow
 se \frac{E_3A_3}{L_3} = 1.64 x 10^7 \Rightarrow
 10^7
@@ -309,6 +312,7 @@ $$
     u_{2X}^E\\
     u_{2Y}^E
 \end{Bmatrix}
+\Rightarrow\\
 \Rightarrow
 se \frac{E_4A_4}{L_4} = 0.982 x 10^7 \Rightarrow
 10^7
