@@ -1,4 +1,4 @@
-# Exercício 4
+# Lista 1 - Exercício 4
 
 **Aluno:** Rafael Lúcio Negrão Cordeiro<br/>
 **Matrícula:** 201310323<br/>

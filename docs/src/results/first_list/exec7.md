@@ -1,4 +1,4 @@
-# Exercício 7
+# Lista 1 - Exercício 7
 
 **Aluno:** Rafael Lúcio Negrão Cordeiro<br/>
 **Matrícula:** 201310323<br/>
