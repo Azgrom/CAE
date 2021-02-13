@@ -70,7 +70,7 @@ $$
 \end{cases}
 $$
 
-Se isolarmos todas as variáveis para o lado esquerdo da equaçao, teremos: 
+Se isolarmos todas as variáveis para o lado esquerdo da equaçao, teremos:
 $$
 \begin{cases}
     50u_1 -  50u_2 + 0R_3 = 50\\
@@ -127,8 +127,8 @@ coeffs, image
 ```python
 (array([[ 50, -50,   0],
         [-50, 110,   0],
-        [  0, -60,  -1]]), 
-        array([50,  
+        [  0, -60,  -1]]),
+        array([50,
         		0,
         		0]))
 ```
@@ -140,4 +140,4 @@ variaveis = np.linalg.solve(coeffs, image)
 
 print('Os resultados são: u1 = %.2ecm, u2 = %.2ecm, R3 = %.2eN' % tuple(variaveis))
 ```
-<span class="caption">Os resultados são: $u_1 = 1.83e+00cm$, $u_2 = 8.33e-01cm$, $R_3 = -5.00e+01N$</span>
+<span class="caption">Os resultados são: $u_1 = 1.83e+00 cm$, $u_2 = 8.33 \cdot 10^{-1} cm$, $R_3 = -5.00 N$</span>

@@ -86,7 +86,7 @@ $$
 \end{cases}
 $$
 
-Se isolarmos todas as variáveis para o lado esquerdo da equaçao, teremos: 
+Se isolarmos todas as variáveis para o lado esquerdo da equaçao, teremos:
 $$
 \begin{cases}
    1300u_1 - 500u_3 - 0R_2 + 0R_4 = 1000\\
@@ -150,9 +150,9 @@ coeffs, image
         [-300,    0,   -1,    0],
         [-500,  900,    0,    0],
         [-500, -400,    0,   -1]]),
-         array([1000,    
-         		   0,    
-         		   0,    
+         array([1000,
+         		   0,
+         		   0,
          		   0]))
 ```
 
@@ -163,5 +163,5 @@ variaveis = np.linalg.solve(coeffs, image)
 
 print('Os resultados são: u1 = %.2emm, u3 = %.2e-2mm, f4 = %.2eN, f2 = %.2eN' % tuple(variaveis))
 ```
-<span class="caption">Os resultados são: u1 = 9.78e-01mm, u3 = 5.43e-01-2mm, f4 = -2.93e+02N, f2 = -7.07e+02N
+<span class="caption">Os resultados são: $u_1 = 9.78 \cdot 10^{-1} mm$, $u_3 = 5.43 \cdot 10^{-1} mm$, $f_4 = -2.93 \cdot 10^{2} N$ e $f_2 = -7.07 \cdot 10^{2} N$
 </span>

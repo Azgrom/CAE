@@ -136,4 +136,4 @@ variaveis = np.linalg.solve(coeffs, image)
 
 print('Os resultados são: R1 = %.2em, u2 = %.2eN, R3 = %.2eN' % tuple(variaveis))
 ```
-<span class="caption">Os resultados são: $R_1 = 2.00 x 10^{-2} N$, $u_2 = -4.00 N$ e $R_3 = -6.00 N$</span>
+<span class="caption">Os resultados são: $R_1 = 2.00 \cdot 10^{-2} N$, $u_2 = -4.00 N$ e $R_3 = -6.00 N$</span>

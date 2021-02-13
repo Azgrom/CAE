@@ -152,3 +152,4 @@ variaveis = np.linalg.solve(coeffs, image)
 
 print('Os resultados são: u2 = %.2em, u3 = %.2em, u4 = %.2em e f1 = %.2eN' % tuple(variaveis))
 ```
+<span class="caption">Os resultados são: $u_2 = 7.69 \cdot 10^{-1} m$, $u_3 = 1.38 m$, $u_4 = 4.72 m$ e $f_1 = -1.00 \cdot 10^3 N$</span>
