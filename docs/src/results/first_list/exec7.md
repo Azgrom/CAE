@@ -5,7 +5,7 @@
 **Disciplina:** CET961 - Engenharia Assistida por Computador
 
 ---
-1. Uma estrutura é composta de dois elementos unidimensionais de barra (conforme Fig. 7). Quando uma força de $10 N$ é aplicada ao nó 2, calcule o vetor dos deslocamentos<br/> $Q^T = u_1, u_2, u_3$ usando o método de elementos finitos.
+7. Uma estrutura é composta de dois elementos unidimensionais de barra (conforme Fig. 7). Quando uma força de $10 N$ é aplicada ao nó 2, calcule o vetor dos deslocamentos<br/> $Q^T = u_1, u_2, u_3$ usando o método de elementos finitos.
 
     ![](img/exec7_structure.png)
 

@@ -5,7 +5,7 @@
 **Disciplina:** CET961 - Engenharia Assistida por Computador
 
 ---
-1. Para uma estrutura de treliça bidimensional, conforme Fig #, determine os deslocamentos dos nós e as tensoes normais desenvolvidas usando um programa de EF. Use $E = 30 x 10^6 N/cm^2$ e um diametro da seçao transversal circular de 0.25cm.
+13. Para uma estrutura de treliça bidimensional, conforme Fig #, determine os deslocamentos dos nós e as tensoes normais desenvolvidas usando um programa de EF. Use $E = 30 x 10^6 N/cm^2$ e um diametro da seçao transversal circular de 0.25cm.
 
 ![](img/exec1_statement.png)
 

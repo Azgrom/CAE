@@ -5,7 +5,7 @@
 **Disciplina:** CET961 - Engenharia Assistida por Computador
 
 ---
-1. Na estrutuda mostrada na Fig. 5 os blocos rígidos estao unidos a molas lineares. Imagine que só sao permitidos deslocamentos horizontais. Escreva as equaçoes de equilíbrio global $[K]\{U\} = \{F\}$ depois de aplicar as condiçoes de contorno em deslocamentos em termos das rigidezas das molas, $k_i$, dos graus de liberdade $(GLs)$, $u_i$, e das cargas aplicadas $F_i$.
+6. Na estrutuda mostrada na Fig. 5 os blocos rígidos estao unidos a molas lineares. Imagine que só sao permitidos deslocamentos horizontais. Escreva as equaçoes de equilíbrio global $[K]\{U\} = \{F\}$ depois de aplicar as condiçoes de contorno em deslocamentos em termos das rigidezas das molas, $k_i$, dos graus de liberdade $(GLs)$, $u_i$, e das cargas aplicadas $F_i$.
 
     ![](img/exec6_structure.png)
 

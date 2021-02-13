@@ -5,7 +5,7 @@
 **Disciplina:** CET961 - Engenharia Assistida por Computador
 
 ---
-1. Determine os deslocamentos nodais e as forças de reaçao (Fig. 4) usando o método direto de rigidez. Calcule os deslocamentos nodais e as forças nos elementos.
+5. Determine os deslocamentos nodais e as forças de reaçao (Fig. 4) usando o método direto de rigidez. Calcule os deslocamentos nodais e as forças nos elementos.
 ![](img/exec5_structure.png)
 
 <span class="caption">Figura 4: Estrutura da questao 5</span>

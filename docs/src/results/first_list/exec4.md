@@ -6,7 +6,7 @@
 
 ---
 
-1. Quatro corpos rígidos (1, 2, 3 e 4) estao unidos a quatro molas conforme mostra a Fig 3. Uma força horizontal de $1.000 N$ é aplicada ao corpo 1. Usando a análise de MEF, encontre:
+4. Quatro corpos rígidos (1, 2, 3 e 4) estao unidos a quatro molas conforme mostra a Fig 3. Uma força horizontal de $1.000 N$ é aplicada ao corpo 1. Usando a análise de MEF, encontre:
 	1. os deslocamentos dos dois corpos (1 e 3);
 	2. encontre a força nos elementos (traçao e  compressao) da mola1;
 	3. as forças de reaçao na parede direita (corpo 2).

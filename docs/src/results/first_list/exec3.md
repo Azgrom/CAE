@@ -5,7 +5,7 @@
 **Disciplina:** CET961 - Engenharia Assistida por Computador
 
 ---
-1. Veja o sistema massa-mola descrito no exercício 2. Que força $F_2$ deve ser aplicada ao corpo 2 para evitar que ele se mova? Como isso influirá nas reaçoes de apoio? Sugestao: Imponha a condiçao de contorno $u_2 = 0$ no MEF e encontre os deslocamentos $u_3$ e $u_4$. A seguir, a força $F_2$ será a reaçao no nó 2.
+3. Veja o sistema massa-mola descrito no exercício 2. Que força $F_2$ deve ser aplicada ao corpo 2 para evitar que ele se mova? Como isso influirá nas reaçoes de apoio? Sugestao: Imponha a condiçao de contorno $u_2 = 0$ no MEF e encontre os deslocamentos $u_3$ e $u_4$. A seguir, a força $F_2$ será a reaçao no nó 2.
 ![](img/exec2_statement.png)
 <span class="caption">Figura 2: Estrutura das questao 2 e 3</span>
 ```python

@@ -5,7 +5,7 @@
 **Disciplina:** CET961 - Engenharia Assistida por Computador
 
 ---
-1. Tres corpos rígidos, identificados por 2, 3 e 4, estao unidos por seis molas, conforme mostra a Fig. 2. As paredes rígidas sao representadas por 1 e 5. Uma força horizontal $F_3 = 1.000$ é aplicada ao corpo 3 no sentido mostrado. Encontre os deslocamentos dos tres corpos e as forças (traçao/compressao) nas molas. Quais sao as reaçoes nas paredes? Admita que os corpos só possam sofrer translaçao na direçao horizontal. As constantes de mola (N/mm) sao: $K_1 = 500$, $K_2 = 400$, $K_3 = 600$, $K_4 = 200$, $K_5 = 400$ e $K_6 = 300$.
+2. Tres corpos rígidos, identificados por 2, 3 e 4, estao unidos por seis molas, conforme mostra a Fig. 2. As paredes rígidas sao representadas por 1 e 5. Uma força horizontal $F_3 = 1.000$ é aplicada ao corpo 3 no sentido mostrado. Encontre os deslocamentos dos tres corpos e as forças (traçao/compressao) nas molas. Quais sao as reaçoes nas paredes? Admita que os corpos só possam sofrer translaçao na direçao horizontal. As constantes de mola (N/mm) sao: $K_1 = 500$, $K_2 = 400$, $K_3 = 600$, $K_4 = 200$, $K_5 = 400$ e $K_6 = 300$.
 ![](img/exec2_statement.png)
 <span class="caption">Figura 2: Estrutura da questao 2 e 3</span>
 
