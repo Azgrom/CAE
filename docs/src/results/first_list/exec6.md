@@ -9,6 +9,8 @@
 
     ![](img/exec6_structure.png)
 
+    <span class="caption">Figura 5: Estrutura da questao 6</span>
+
     Observaçao: A indentificaçao dos nós, elementos e forças externas estao conforme Fig. 6.
 
     - Identificaçao em <span style="color:red">*vermelho*</span>: elementos;
@@ -16,6 +18,8 @@
     - Identificaçao em <span style="color:yellow">*amarelo*</span>: forças.
 
     ![](img/exec6_structure2.png)
+
+    <span class="caption">Figura 6: Ilustraçao da questao 6</span>
 
 #### Compondo o sistema na notaçao matricial $[K^{(g)}]\{U^{(g)}\} = \{F^{(g)}\}$, temos:
 
