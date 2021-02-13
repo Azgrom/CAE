@@ -12,6 +12,8 @@
 
   ![](img/exec8_structure.png)
 
+  <span class="caption">Figura 8: Ilustraçao da questao 8</span>
+
 ```python
 E = 100e9 # GPa
 A1 = 1e-4 # m²
