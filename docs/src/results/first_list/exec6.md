@@ -10,13 +10,13 @@
     ![](img/exec6_structure.png)
 
     Observaçao: A indentificaçao dos nós, elementos e forças externas estao conforme Fig. 6.
-    
-    - Identificaçao em vermelho: elementos;
-    - Identificaçao em azul: nós;
-    - Identificaçao em amarelo: forças.
-    
+
+    - Identificaçao em <span style="color:red">*vermelho*</span>: elementos;
+    - Identificaçao em <span style="color:blue">*azul*</span>: nós;
+    - Identificaçao em <span style="color:yellow">*amarelo*</span>: forças.
+
     ![](img/exec6_structure2.png)
-    
+
 #### Compondo o sistema na notaçao matricial $[K^{(g)}]\{U^{(g)}\} = \{F^{(g)}\}$, temos:
 
 $$
