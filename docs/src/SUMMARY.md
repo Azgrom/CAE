@@ -9,7 +9,7 @@
 		* [4° Exercício](results/first_list/exec4.md)
 		* [5° Exercício](results/first_list/exec5.md)
 		* [6° Exercício](results/first_list/exec6.md)
-		* [7° Exercício]()
+		* [7° Exercício](results/first_list/exec7.md)
 		* [8° Exercício]()
 		* [9° Exercício]()
 		* [10° Exercício]()
