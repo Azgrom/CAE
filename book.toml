@@ -9,7 +9,7 @@ title = "CET961 - Engenharia Assistida por Computador"
 build-dir = 'build'
 
 [output.html]
-default-theme = "light"
+default-theme = "rust"
 preferred-dark-theme = "rust"
 additional-css = ["docs/css/rust_book_style.css"]
 git-repository-url = "https://github.com/Azgrom/CAE"
