@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="pt-br" class="sidebar-visible no-js light">
+<html lang="pt-br" class="sidebar-visible no-js rust">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -54,7 +54,7 @@
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "rust" : "light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "rust" : "rust";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -80,7 +80,7 @@
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
             html.classList.remove('no-js')
-            html.classList.remove('light')
+            html.classList.remove('rust')
             html.classList.add(theme);
             html.classList.add('js');
         </script>
@@ -99,7 +99,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="title-page.html">Computer Assisted Engineering - CAE</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> Entregas</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.</strong> Primeira Lista de Exercícios</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="results/first_list/exec1.html"><strong aria-hidden="true">1.1.1.</strong> 1° Exercício</a></li><li class="chapter-item expanded "><a href="results/first_list/exec2.html"><strong aria-hidden="true">1.1.2.</strong> 2° Exercício</a></li><li class="chapter-item expanded "><a href="results/first_list/exec3.html"><strong aria-hidden="true">1.1.3.</strong> 3° Exercício</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.4.</strong> 4° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.5.</strong> 5° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.6.</strong> 6° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.7.</strong> 7° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.8.</strong> 8° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.9.</strong> 9° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.10.</strong> 10° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.11.</strong> 11° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.12.</strong> 12° Exercício</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.</strong> Segunda Lista de Exercícios</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="results/second_list/exec1.html"><strong aria-hidden="true">1.2.1.</strong> 1° Exercício</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.2.</strong> 2° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.3.</strong> 3° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.4.</strong> 4° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.5.</strong> 5° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.6.</strong> 6° Exercício</div></li></ol></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="title-page.html">Computer Assisted Engineering - CAE</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> Entregas</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.</strong> Primeira Lista de Exercícios</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="results/first_list/exec1.html"><strong aria-hidden="true">1.1.1.</strong> 1° Exercício</a></li><li class="chapter-item expanded "><a href="results/first_list/exec2.html"><strong aria-hidden="true">1.1.2.</strong> 2° Exercício</a></li><li class="chapter-item expanded "><a href="results/first_list/exec3.html"><strong aria-hidden="true">1.1.3.</strong> 3° Exercício</a></li><li class="chapter-item expanded "><a href="results/first_list/exec4.html"><strong aria-hidden="true">1.1.4.</strong> 4° Exercício</a></li><li class="chapter-item expanded "><a href="results/first_list/exec5.html"><strong aria-hidden="true">1.1.5.</strong> 5° Exercício</a></li><li class="chapter-item expanded "><a href="results/first_list/exec6.html"><strong aria-hidden="true">1.1.6.</strong> 6° Exercício</a></li><li class="chapter-item expanded "><a href="results/first_list/exec7.html"><strong aria-hidden="true">1.1.7.</strong> 7° Exercício</a></li><li class="chapter-item expanded "><a href="results/first_list/exec8.html"><strong aria-hidden="true">1.1.8.</strong> 8° Exercício</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.9.</strong> 9° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.10.</strong> 10° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.11.</strong> 11° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.12.</strong> 12° Exercício</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.</strong> Segunda Lista de Exercícios</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="results/second_list/exec1.html"><strong aria-hidden="true">1.2.1.</strong> 1° Exercício</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.2.</strong> 2° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.3.</strong> 3° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.4.</strong> 4° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.5.</strong> 5° Exercício</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.6.</strong> 6° Exercício</div></li></ol></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -118,8 +118,8 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
@@ -171,7 +171,7 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#document-not-found-404" id="document-not-found-404">Document not found (404)</a></h1>
+                        <h1 id="document-not-found-404"><a class="header" href="#document-not-found-404">Document not found (404)</a></h1>
 <p>This URL is invalid, sorry. Please use the navigation bar or search to continue.</p>
 
                     </main>
