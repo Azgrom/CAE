@@ -5,10 +5,10 @@
 **Disciplina:** CET961 - Engenharia Assistida por Computador
 
 ---
-8. Utilize o MEF para determinar a força axial P em cada parte da barra uniaxial, conforme Fig. 8. Quais sao as reaçoes de apoio? Admita $E = 100 GPa$, as áreas da seçao transversal das duas partes $\underline{AB}$ e $\underline{BC}$ sao respectivamente $10^{-4}m^2$, $2 \cdot 10^{-4}m^2$ e $F = 10.000 N$. A força $F$ é aplicada na seçao transversal em $\underline{B}$.
-  Observaçoes:
+8. Utilize o MEF para determinar a força axial P em cada parte da barra uni-axial, conforme Fig. 8. Quais são as reações de apoio? Admita $E = 100 GPa$, as áreas da seleção transversal das duas partes $\underline{AB}$ e $\underline{BC}$ são respetivamente $10^{-4}m^2$, $2 \cdot 10^{-4}m^2$ e $F = 10.000 N$. A força $F$ é aplicada na seleção transversal em $\underline{B}$.
+    Observações:
     a) da teoria da elasticidade temos que $k = EA/L$
-    b) atençao para as unidades ($GPa$, $m$ e $N$).
+    b) atenção para as unidades ($GPa$, $m$ e $N$).
 
   ![](img/exec8_structure.png)
 
@@ -30,7 +30,7 @@ k1 = k(E, A1, A_B) # N / m
 k2 = k(E, A2, B_C) # N / m
 ```
 
-#### Compondo o sistema na notaçao matricial $[K^{(g)}]\{U^{(g)}\} = \{F^{(g)}\}$, temos:
+#### Compondo o sistema na notação matricial $[K^{(g)}]\{U^{(g)}\} = \{F^{(g)}\}$, temos:
 
 $$
 \overbrace{
@@ -75,24 +75,22 @@ $$
 
 #### Ao executar as multiplicações das matrizes, temos:
 $$
-\begin{equation}
-    \begin{cases}
-        -k_{\vec{AB}}u_2 = R_1\\
-        (k_{\vec{AB}} + k_{\vec{BC}})u_2 = F_B\\
-        -k_{\vec{BC}}u_2 = R_3
-    \end{cases}
-\end{equation}
+\begin{cases}
+    -k_{\vec{AB}}u_2 = R_1\\
+    (k_{\vec{AB}} + k_{\vec{BC}})u_2 = F_B\\
+    -k_{\vec{BC}}u_2 = R_3
+\end{cases}
 $$
 
-Se isolarmos todas as variáveis para o lado esquerdo da equaçao, teremos: $ \begin{equation}
-    \begin{cases}
-       -k_{\vec{AB}}u_2 - R_1 +0R_3= 0\\
-        (k_{\vec{AB}} + k_{\vec{BC}})u_2 + 0R_1 + 0R_3 = F_B\\
-        -k_{\vec{BC}}u_2 + 0R_1 - R_3 = 0
-    \end{cases}
-\end{equation} $
-
-Como já sabemos os valores de $k_{\vec{AB}}$, $k_{\vec{BC}}$ e $F_B$. Da algebra linear, verifica-se que pode-se resolver um sistema de 3 equaçoes com 3 variáveis com uma matriz de seus coeficientes:
+Se isolarmos todas as variáveis para o lado esquerdo da equação, teremos: 
+$$
+\begin{cases}
+   -k_{\vec{AB}}u_2 - R_1 +0R_3= 0\\
+    (k_{\vec{AB}} + k_{\vec{BC}})u_2 + 0R_1 + 0R_3 = F_B\\
+    -k_{\vec{BC}}u_2 + 0R_1 - R_3 = 0
+\end{cases}
+$$
+Como já sabemos os valores de $k_{\vec{AB}}$, $k_{\vec{BC}}$ e $F_B$. Da álgebra linear, verifica-se que pode-se resolver um sistema de 3 equações com 3 variáveis com uma matriz de seus coeficientes:
 
 $$
 \begin{bmatrix}
@@ -113,7 +111,7 @@ $$
 \end{bmatrix}
 $$
 
-Existe uma biblioteca no python dedicada a resolver equações organizadas na forma matricial acima. No pacote numpy, módulo de algebra linear. O código a seguir criará os vetores da matriz acima e executará o módulo de algebra linear do numpy, já entregando os resultados.
+Existe uma biblioteca no python dedicada a resolver equações organizadas na forma matricial acima. No pacote numpy, módulo de álgebra linear. O código a seguir criará os vetores da matriz acima e executará o módulo de álgebra linear do numpy, já entregando os resultados.
 
 ```python
 import numpy as np
